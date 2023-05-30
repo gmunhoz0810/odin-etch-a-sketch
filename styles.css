@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+button {
+  font-size: 1.2em;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;  /* Adjust this to change the overall size of the grid */
+}
+
+.square {
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
